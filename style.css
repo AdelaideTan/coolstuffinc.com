@@ -1,0 +1,75 @@
+/* header start */
+/*img{max-width: 100%}*/
+
+.logo {
+width: 90px;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background: #FFFFFF;
+}
+  
+#navbar li {
+    list-style: none;
+    padding: 0 10px;
+}
+
+#navbar {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    }
+
+/* change the icon color hover */
+
+/* add search bar */
+.search-bar { /* search bar padding?*/
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input{
+    flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 12px; 
+    font-weight: 725;
+    color: #454545;
+    
+    max-width: 100%;
+    width: 250px;
+    background: #F5F5F5;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+::placeholder{
+    color: #D3D3D3;
+}
+
+.search-bar button img{ /* it is not align with the bar & the space between is wired*/
+    width: 30px;
+}
+
+.search-bar button{
+    border: 0;
+    width: 37px;
+    height: 35px;
+    background: white;
+    cursor: pointer;
+    }
+
+/*edit icon*/
+.profile{ 
+    width: 32px;
+}
+.cart{ 
+    width: 30px;
+}
+.hamburger-icon{ 
+    width: 30px;
+}
