@@ -3,11 +3,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 700 700" style="enable-background:new 0 0 700 700;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:none;stroke:#1B215C;stroke-width:49.8889;stroke-miterlimit:10;}
+	.st0{fill:none;stroke:#1B215C;stroke-width:60.0717;stroke-miterlimit:10;}
 </style>
 <g>
-	<line class="st0" x1="1" y1="25" x2="699" y2="25"/>
-	<line class="st0" x1="1" y1="675" x2="699" y2="675"/>
-	<line class="st0" x1="1" y1="350.2" x2="699" y2="350.2"/>
+	<line class="st0" x1="0" y1="30.2" x2="699.7" y2="30.2"/>
+	<line class="st0" x1="0" y1="670" x2="699.7" y2="670"/>
+	<line class="st0" x1="0" y1="350.1" x2="699.7" y2="350.1"/>
 </g>
 </svg>
