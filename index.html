@@ -10,7 +10,7 @@
 <body>
     <div class="header">
         <section id="header-content">
-            <a href="#"><img src="img/logo.png" class="logo" alt=""></a>
+            <a href="index.html"><img src="img/logo.png" class="logo" alt=""></a>
 
                 <div>
                         <ul id="navbar">
@@ -22,7 +22,7 @@
                             </div>
                             <li><a href="index.html"> <img src="img/profile.svg" alt="" class="profile"></a></li>
                             <li><a href="index.html"> <img src="img/cart.svg" alt="" class="cart"></a></li>
-                            <li><a href="index.html"> <img src="img/hamburger icon.svg" alt="" class="hamburger-icon"></a></li>
+                            <li><a href="navigation.html"> <img src="img/hamburger icon.svg" alt="" class="hamburger-icon"></a></li>
                         </ul>
                 </div>
         </section>
@@ -94,15 +94,15 @@
                     It is a lovely game to play 
                     with friends and family.</p>
                 <section id="star">    
-                <div>
-                    <ul>
-                        <li><img src="img/5star.svg" alt="" class="star"></li>
-                        <li><img src="img/5star.svg" alt="" class="star"></li>
-                        <li><img src="img/5star.svg" alt="" class="star"></li>
-                        <li><img src="img/5star.svg" alt="" class="star"></li>
-                        <li><img src="img/5star.svg" alt="" class="star"></li>
-                    </ul>
-                </div>
+                    <div>
+                        <ul>
+                            <li><img src="img/5star.svg" alt="" class="star"></li>
+                            <li><img src="img/5star.svg" alt="" class="star"></li>
+                            <li><img src="img/5star.svg" alt="" class="star"></li>
+                            <li><img src="img/5star.svg" alt="" class="star"></li>
+                            <li><img src="img/5star.svg" alt="" class="star"></li>
+                        </ul>
+                    </div>
                 </section>
                 <h6>1 Apr 2022</h6>
             </div></a>
@@ -111,5 +111,60 @@
 </div>
 </section>
 
-</body>
+<section id="newsletter" class="section-p3">
+    <div class="newsletter_content">
+        <h2>NEWSLETTER</h2>
+        <form class="form_1">
+            <input type="email" placeholder="Email Address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </div>
+</section>
+
+<section id="footer" class="section-p4">
+    <div>
+        <ul id="footer_content">
+            <li><a href="#"> <img src="img/instagram.svg" alt="" class="instagram"></a></li>
+            <li><a href="#"> <img src="img/facebook.png" alt="" class="facebook"></a></li>
+            <li><a href="#"> <img src="img/twitter.png" alt="" class="twitter"></a></li>
+        </ul>            
+    </div>
+</section>
+
+<section id="footer_2" class="section-p4">
+    <div class="follow">
+          <a href="#">PRIVACY POLICY</a>
+          <a href="#">TERMS AND CONDITIONS</a>
+    </div>
+</section>
+
+<section id="footer_2" class="section-p4">
+    <div class="follow">
+          <a href="#">ABOUT US</a>
+          <a href="#">CONTACT US</a>
+          <a href="#">SHIPPING AND DELIVERY</a>
+    </div>
+</section>
+
+<div class="btt">
+    <section id="back_to_top">
+    <button id="back_to_top_button">
+        <i class="material-icon"><img src="img/arrow.svg" alt="" class=""></i>
+    </button>
+    </section>
+</div>
+
+
+<script> //put it into javascript and fix it: https://www.youtube.com/watch?v=FK5DEa1Hvco
+    const back_to_top_button = document.querySelector("back_to_top_button");
+
+    back_to_top_button.addEventListener("click", function () {
+       //  window.scrollTo(0, 0);
+       window.scrollTo({
+           top:0;
+           left:0;
+           behavior:"smooth"
+       });
+    });
+</script>
 </html>
