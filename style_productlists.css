@@ -1,0 +1,444 @@
+*{
+    text-decoration: none;
+}
+h1{
+    font-family: 'Avenir Next'; /*looks biger then xd*/
+    font-size: 32px;
+    font-weight: bold;
+    color: #1B215C;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Avenir Next';
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 5px;
+}
+
+h3{
+    font-family: 'Avenir Next';
+    font-size: 15px;
+    font-weight: bold;
+    color: #1B215C;;
+    width: 200px;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+    line-height: 1;
+
+}
+
+h4{
+    font-family: 'Avenir Next';
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(27,33,92,49%);
+    position:relative;
+    bottom: 25px;
+    text-decoration: line-through;
+    margin-bottom: auto;
+}
+
+h5{
+    font-family: 'Avenir Next';
+    font-size: 15px;
+    font-weight: bold;
+    color: #EB6649;;
+    position:relative;
+    bottom: 30px;
+
+}
+
+h6{
+    font-family: 'Avenir Next';
+    font-size: 19px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 15px;
+}
+
+p{
+    font-family: 'Avenir Next';
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(27,33,92,49%);
+    position:relative;
+    bottom: 25px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+
+.section-p1 {
+    padding:48px 103px 0 103px;
+}
+.section-p2 {
+    padding:5px 103px 0 103px;
+}
+
+.section-p3 {
+    padding:0 89px 0 85px;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* header start */
+
+img{
+    max-width: 100%
+}
+.logo {
+    width: 90px;
+    }
+    
+    #header-content {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 8px 103px 8px 103px;
+        background: #FFFFFF;
+        z-index: 999;
+        position: sticky;
+        left: 0; 
+    }
+      .header{
+          
+          width: 100%;
+          background:#FFFFFF;
+          
+          top:0px;
+          left: 0px;
+          z-index: 999;
+        position: fixed;
+      }
+    #navbar li {
+        list-style: none;
+        padding: 0 10px;
+    }
+    
+    #navbar {
+        display: flex; 
+        align-items: center;
+        justify-content: center;
+        }
+    
+    /* change the icon color hover */
+    
+    /* add search bar */
+    .search-bar { 
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .search-bar input{
+        flex: 1;
+        border: 0;
+        outline: none;
+        font-size: 12px; 
+        font-weight: 725;
+        color: #454545;
+        
+        max-width: 100%;
+        width: 250px;
+        background: #F5F5F5;
+        border-radius: 60px;
+        padding: 10px 20px;
+        
+    }
+    .search-bar input{
+        box-shadow: inset 2px 2px 3px #CECECE;
+    }
+    ::placeholder{
+        color: #D3D3D3;
+    }
+    
+    .search-bar button img{ 
+        width: 23px;
+    }
+    
+    .search-bar button{
+        border: 0;
+        width: 50px;
+        height: 35px;
+        background: white;
+        cursor: pointer;
+        padding: 0 0 0 20px;
+        }
+    
+    /*edit icon*/
+    .profile{ 
+        width: 23px;
+    }
+    .cart{ 
+        width: 23px;
+    }
+    .hamburger-icon{ 
+        width: 23px;
+    }
+
+
+    /*sort button*/
+    #sort_button img{
+        width: 18px;
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    #sort_button{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 4px 0;
+    }
+
+    .sort_condition button{
+        border: 0;
+        max-width: 100%;
+        width: 549px;
+        background: #FABA00;
+        cursor: pointer;
+        border-radius: 60px;
+        }
+
+        #sort_and_filter{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }   
+/*count_icon*/
+
+#count_icon{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding:0 20px;
+    height: 0;
+    
+}
+#count_icon .number_of_item p{
+    position: relative;
+    bottom: 9%;
+    right:12%;
+    font-family: 'Avenir Next';
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#count_icon .overlay_total_number_of_item_1 p{
+    font-family: 'Avenir Next';
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+#count_icon .overlay_total_number_of_item p{
+    position: relative;
+    top: 15%;
+    left:15%;
+}
+.number_of_item{
+    width: 85px;
+    height: 85px;
+    background: rgba(27,33,92,73%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right:20px;
+}
+
+.overlay_total_number_of_item{
+    background: rgba(27,33,92,1);
+    float: left;
+    margin: -43px;
+    width: 85px;
+    height: 85px;
+    transform:rotate(45deg);
+    clip-path: circle(50% at 0%);
+    position: absolute;
+    top: 31px;
+    left:95.65%;
+    
+}
+.overlay_total_number_of_item_1{
+    position: absolute;
+    top:10px;
+    left:94%;   
+}
+.count{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    top:90%;
+    z-index:100;
+    position: sticky;
+    padding-right: 2%;
+}
+
+
+/*product list*/   
+    .box-container{/*fix the space between*/
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }    
+
+    .box .image img{
+        width: 260px;
+        object-fit: cover;
+    }
+
+    .box{
+        height: 330px;
+        width: 300px;
+        margin:18px;
+        flex: 1 1 220px;
+        background-color: #FFFFFF;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .box:hover{/*add hover*/
+        filter: drop-shadow(0, 3px 5px rgba(0,0,0,0.7));
+    }
+    
+    .box .image{
+        padding:30px;
+        text-align: center;
+        background-color: #F5F5F5;
+        border-radius: 20px;
+    }
+    .box .info .title:hover{
+        text-decoration:underline;
+    }
+
+    .box .info .price{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+/*product list-like button*//*add hover on heart:https://www.youtube.com/watch?v=648mhdth6i0*/
+.overlay_heart{
+    width: 30px;  
+    position: relative;
+    bottom: 360px; 
+    left: 190px;
+}
+
+.overlay_heart_1{
+    width: 30px;  
+    position: relative;
+    bottom: 330px; 
+    left: 190px;
+}
+.overlay_heart_2{
+    width: 30px;  
+    position: relative;
+    bottom: 342px; 
+    left: 190px;
+}
+.overlay_heart_3{
+    width: 30px;  
+    position: relative;
+    bottom: 345px; 
+    left: 190px;
+}
+/*product list-quick add*/
+.overlay{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(27,33,92,73%);
+    position: relative;
+    bottom: 220px; 
+    border-radius: 0 0 20px 20px;
+}
+
+.overlay:hover {
+    background: rgba(27,33,92,88%);
+}
+
+.overlay_1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(27,33,92,73%);
+    position: relative;
+    bottom: 190px; 
+    border-radius: 0 0 20px 20px;
+}
+
+.overlay_1:hover {
+    background: rgba(27,33,92,88%);
+}
+
+.box .info .price_3{
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+
+.box .info .price_3 h4{
+    bottom: 10px;
+
+}
+.box .info .price_3 h5{
+    bottom: 15px;
+
+}
+
+.box .info .price_4 p{
+    top: 4px;
+}
+
+.box .info_2 .price_5 p{
+    bottom: 8px;
+}
+.overlay_2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(27,33,92,73%);
+    position: relative;
+    bottom: 203px; 
+    border-radius: 0 0 20px 20px;
+}
+
+.overlay_2:hover {
+    background: rgba(27,33,92,88%);
+}
+
+.box .info_2 h3{
+    font-size: 14px;
+    width: 250px;
+    overflow-wrap: break-word;  
+    word-wrap: break-word; 
+    word-break: break-word;
+}
+
+.box .info_2 p{
+    bottom: 10px;
+}
+
+.overlay_3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(27,33,92,73%);
+    position: relative;
+    bottom: 205px; 
+    border-radius: 0 0 20px 20px;
+}
+
+.overlay_3:hover {
+    background: rgba(27,33,92,88%);
+}

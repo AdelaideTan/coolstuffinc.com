@@ -1,3 +1,14 @@
+body{    
+    background: #1B215C;
+}
+h2{
+    font-family: 'Avenir Next';
+    font-size: 35px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    letter-spacing: 2px;
+}
 h3 {
     font-family: 'Avenir Next';
     font-size: 32px;
@@ -44,12 +55,19 @@ h6{
     right: 80px;
 }
 
-
 .section-p1 {
     padding:80px 80px 20px 80px;
 }
 
 .section-p2 {
+    padding: 0 80px 40px 80px;
+}
+
+.section-p3 {
+    padding: 0 80px 80px 80px;
+}
+
+.section-p4 {
     padding: 0 80px 40px 80px;
 }
 
@@ -68,12 +86,12 @@ img{
 width: 90px;
 }
 
-#header-content { /* fix the whitte edge around background */
+#header-content {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-between;
-    padding: 8px 80px 8px 80px;
+    padding: 8px 103px 8px 103px;
     background: #FFFFFF;
     z-index: 999;
     position: sticky;
@@ -132,7 +150,7 @@ width: 90px;
 }
 
 .search-bar button img{ 
-    width: 30px;
+    width: 23px;
 }
 
 .search-bar button{
@@ -146,13 +164,13 @@ width: 90px;
 
 /*edit icon*/
 .profile{ 
-    width: 30px;
+    width: 23px;
 }
 .cart{ 
-    width: 30px;
+    width: 23px;
 }
 .hamburger-icon{ 
-    width: 30px;
+    width: 23px;
 }
 
 /*home page top*/
@@ -163,9 +181,7 @@ width: 90px;
 .homepage_img_1 {
     width: 950px;
     border-radius: 20px 0 0 0;
-    margin-top: 7%;
-   
-    
+    margin-top: 7%;  
 }
 
 .homepage_img_2 {
@@ -484,10 +500,10 @@ width: 90px;
     left: 5px; 
     }
 
-    #star li {
-        list-style: none;
-        padding: 0 5px;
-    }
+#star li {
+    list-style: none;
+    padding: 0 5px;
+}
 
 /* Image zoom on hover + Overlay colour */
 .parent_3 {
@@ -566,5 +582,108 @@ width: 90px;
 }*/
 .customers_review_with_title{
     padding: 0 0 0 22.5px;
+}
+
+/*newsletter*/
+#newsletter{  /*hover the bottom*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter_content input {
+    display: block;
+    margin: 0 auto;
+    flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 12px; 
+    font-weight: 725;
+    color: #454545;
+    max-width: 100%;
+    width: 400px;
+    background: #F5F5F5;
+    border-radius: 60px;
+    padding: 10px 20px;
+    box-shadow: inset 2px 2px 3px #CECECE;
+    position: relative;
+    bottom:10px;
+}
+.newsletter_content button {
+    display: block;
+    margin: 0 auto;
+    flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 12px; 
+    font-weight: 725;
+    color: #FFFFFF;
+    background: #FABA00;
+    width: 110px;
+    border-radius: 60px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/*footer*/
+.instagram{ 
+    width: 50px;
+}
+.facebook{ 
+    width: 50px;
+}
+.twitter{ 
+    width: 50px;
+}
+#footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#footer li {
+    list-style: none;
+    padding: 0 30px;
+}
+
+/*footer_2*/
+#footer_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footer_2 a{   
+text-decoration: none;
+font-family: 'Avenir Next';
+font-size: 15px;
+font-weight: 300;
+color: #FFFFFF;
+padding: 0 30px;
+}
+
+#footer_2 .follow a:hover{
+    color: #CECECE;
+}
+
+/*back_to_top_button*/     /*java fix the buttom and smothes go to nav*/
+.material-icon{
+    width: 50px;      
+}
+
+#back_to_top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#back_to_top_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; 
+    background: rgba(250,186,0,0);
+    border: 0;
+    /*position: fixed;*/
+    cursor: pointer;
 }
 
