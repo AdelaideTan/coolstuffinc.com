@@ -1,0 +1,247 @@
+:root{
+    --primary-font: 'Avenir Next';
+}
+
+* {
+    text-decoration: none;
+}
+
+#title {
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* header*/
+/* add search bar */
+.search-bar input {
+    font-size: 12px;
+    font-weight: 725;
+}
+
+/*sort button*/
+#sort_and_filter .sortfilter {
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+/*count_icon*/
+#count_icon .number_of_item p {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+#count_icon .overlay_total_number_of_item_1 p {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+/*product list*/
+.box .title {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1;
+
+}
+
+.box .price_before {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    bottom: 25px;
+    text-decoration: line-through;
+    margin-bottom: auto;
+}
+
+.box .price_after {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.box .out_of_stock {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    bottom: 25px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+
+.box .quick_add {
+    font-family: var(--primary-font);
+    font-size: 19px;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.box .info .title:hover {
+    text-decoration: underline;
+}
+
+/*product list-quick add*/
+.box .info_2 h3 {
+    font-size: 14px;
+    width: 250px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.box .info_2 .title:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+/*cart*/
+/*products tag*/
+.product-in-cart {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/*price*/
+.price_before-in-cart {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: line-through;
+
+}
+
+.price_after-in-cart {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+/*number of product*/
+#minus {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#plus {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.product-info #input {
+    font-weight: 725;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*remove btn*/
+.remove-btn {
+    font-family: var(--primary-font);
+    font-size: 8px;
+    font-weight: bold;
+
+}
+
+
+/*total-price*/
+.total-price {
+    font-family: var(--primary-font);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/*checkout-button*/
+.checkout-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 7px;
+
+}
+
+.checkout-button > button {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*login-content*/
+.login-content h1 {
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.txt_field input {
+    font-size: 12px;
+    font-weight: 725;
+
+}
+
+.txt_field label {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 12px;
+    font-weight: 725;
+}
+
+.pass {
+    font-family: var(--primary-font);
+    font-size: 12px;
+}
+
+.pass:hover {
+    text-decoration: underline;
+}
+
+
+.remember {
+    font-family: var(--primary-font);
+    font-size: 12px;
+}
+
+input[type="submit"] {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.signup_link a {
+    font-family: var(--primary-font);
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup_link a:hover {
+    text-decoration: underline;
+}

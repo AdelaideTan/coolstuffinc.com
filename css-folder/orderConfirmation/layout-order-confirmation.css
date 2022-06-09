@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    text-decoration: none;
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* header start */
+img {
+    max-width: 100%
+}
+
+.logo {
+    width: 90px;
+}
+
+#header-content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8px 103px 8px 103px;
+    position: sticky;
+    left: 0;
+}
+
+.header {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+    position: fixed;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 5px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* change the icon color hover */
+
+/* add search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+
+}
+
+.search-bar input {
+    flex: 1;
+    border: 0;
+    outline: none;
+    max-width: 100%;
+    width: 250px;
+    border-radius: 60px;
+    padding: 10px 20px;
+}
+
+.search-bar button img {
+    width: 23px;
+}
+
+.search-bar button {
+    border: 0;
+    width: 50px;
+    height: 35px;
+    cursor: pointer;
+    padding: 0 0 0 20px;
+}
+
+/*edit icon*/
+.profile {
+    width: 23px;
+}
+
+.cart {
+    width: 23px;
+}
+
+.hamburger-icon {
+    width: 23px;
+    margin-left: 6px;
+}
+
+
+/*home page top*/
+#hero {
+    padding: 30px 95px;
+}
+
+.homepage_img_1 {
+    width: 950px;
+    border-radius: 20px 0 0 0;
+    margin-top: 7%;
+}
+
+.homepage_img_2 {
+    width: 276px;
+    border-radius: 0 0 20px 0;
+    position: relative;
+    right: 100%;
+    padding-top: 7%;
+}
+
+.homepage_img_3 {
+    width: 310px;
+    border-radius: 50px 0 0 50px;
+    position: absolute;
+    top: 180px;
+}
+
+.slogan_1 {
+    margin: 15px 0;
+}
+
+.slogan_2 {
+    margin: 30px 0 40px 0;
+}
+
+/* group the text, homepage img_2 & homepage img_3*/
+#hero_1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#homepage_img_2and3 {
+    display: flex;
+    align-items: center;
+    /*Q1: how do i move it up ? */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*confirmation*/
+.login-panel-background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 998;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(5px);
+}
+
+.login-panel {
+    width: 100%;
+    height: 355px;
+    position: fixed;
+    z-index: 999;
+    top: 25%;
+
+}
+
+/*login-content*/
+.login-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-content h1 {
+    padding: 85px 0 25px 0;
+}
+
+.p1{
+    padding: 0 0 30px 0;
+}
+
+
+@media screen and (max-width:500px) {
+/*login*/
+.login-panel {
+    height: 250px;
+    position: fixed;
+    z-index: 999;
+    top: 33%;
+}
+
+/*login-content*/
+.login-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-content h1 {
+    padding: 40px 0 20px 0;
+
+}
+
+.p1{
+    padding: 0 0 20px 0;
+}
+
+}

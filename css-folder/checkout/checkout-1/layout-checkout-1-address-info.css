@@ -1,0 +1,604 @@
+
+* {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* header start */
+.header {
+    width: 100%;
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header li {
+    list-style: none;
+
+}
+
+.header p {
+    padding: 0 464px;
+}
+
+.x_mark {
+    position: relative;
+    right: 8px;
+}
+
+.header button img {
+    width: 33px;
+}
+
+.go_back button {
+    border: none;
+    outline: none;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+
+/*process light*/
+.process {
+    width: 100%;
+    margin-top: 49px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+}
+
+.process-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.process-content p {
+    padding: 16px 20px;
+    border-radius: 50%;
+}
+
+.process li {
+    list-style: none;
+    padding: 0 40px;
+}
+
+/*process text*/
+.process-text {
+    width: 100%;
+    margin-top: 53px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5px;
+
+}
+
+.process-text-line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 2px;
+    bottom: 35px;
+}
+
+.process-text-line li {
+    list-style: none;
+    padding: 0 18px;
+
+}
+
+.process-text-line p {
+    padding: 10px 18px;
+    position: relative;
+    transform: rotate(-90deg);
+    /* Safari */
+    -webkit-transform: rotate(90deg);
+    /* Firefox */
+    -moz-transform: rotate(90deg);
+    /* IE */
+    -ms-transform: rotate(90deg);
+    /* Opera */
+    -o-transform: rotate(90deg);
+}
+
+.reached-stage-text {
+    position: relative;
+    top: 12px;
+    left: 9px;
+}
+
+.reached-stage-text::after {
+    display: block;
+    content: '';
+    width: 118px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.unreached-stage-text::after {
+    display: block;
+    content: '';
+    width: 118px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.ust2 {
+    position: relative;
+    left: 5px;
+}
+
+@media screen and (max-width:500px) {
+/* header start */
+.header {
+    margin-top: 10px;
+}
+
+.header p {
+    padding: 0 100px;
+}
+
+
+.header button img {
+    width: 23px;
+}
+
+.go_back button {
+padding: 0 0 0 10px;
+}
+
+/*process light*/
+.process {
+    margin-top: 25px;
+}
+
+.process-content p {
+    padding: 11px 14px;
+}
+
+.process li {
+    padding: 0 28px;
+}
+
+/*process text*/
+.process-text {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.process-text-line {
+    position: relative;
+    left: 4px;
+    bottom: 38px;
+}
+
+.process-text-line li {
+    padding: 0 6px;
+}
+
+.process-text-line p {
+    padding: 8px 18px;
+}
+
+.reached-stage-text {
+    position: relative;
+    top: 8px;
+    left: 0;
+}
+
+.reached-stage-text::after {
+    width: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+}
+
+
+
+
+
+
+
+/*checkout section*/
+.checkoutsection1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 18px 191px 50px 191px;
+    position: relative;
+    z-index: 999;
+    top: 5px;
+
+}
+
+.whole-address-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.address-panel {
+    width: 448px;
+    height: 1002px;
+    top: 185px;
+    left: 460px;
+    border-radius: 45px;
+    padding: 25px;
+
+}
+
+/*address-content*/
+.address-content h1 {
+    padding: 30px 20px 5px 20px;
+}
+
+.address-content h2 {
+    padding: 18px 20px 20px 0;
+}
+
+.address-content form {
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+form .txt_field {
+    position: relative;
+    margin: 0 0 35px 0;
+}
+
+.txt_field input {
+    flex: 1;
+    border: 0;
+    outline: none;
+
+    max-width: 100%;
+    width: 400px;
+    border-radius: 60px;
+    padding: 12px 20px;
+
+
+    position: relative;
+    top: 7px;
+
+}
+
+
+.txt_field label {
+    position: relative;
+    bottom: 5px;
+}
+
+@media screen and (max-width:500px) {
+/*checkout section*/
+.checkoutsection1 {
+    margin: -5px 30px 50px 30px;
+    position: relative;
+    z-index: 999;
+
+}
+.address-panel {
+    width: 310px;
+    height: 795px;
+    top: 185px;
+    left: 460px;
+    border-radius: 25px;
+    padding: 0 10px;
+
+}
+
+/*address-content*/
+.address-content h1 {
+    padding: 25px 20px 0 15px;
+}
+
+.address-content h2 {
+    padding: 5px 20px 20px 0;
+}
+
+.txt_field label {
+    font-weight: 600;
+    position: relative;
+    bottom:13px;
+}
+
+form .txt_field {
+    position: relative;
+    margin: 0 0 35px 0;
+}
+
+.txt_field input {
+    font-weight: 600;
+    padding: 8px 20px;
+    position: relative;
+    top: 0;
+}
+
+
+}
+
+
+
+/*billing address*/
+.dropdown {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 366px;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    bottom: 4px;
+}
+
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 10px 0 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transition: .1s;
+
+    border-radius: 34px;
+}
+
+.switch input {
+    display: none;
+}
+
+
+.arrow {
+    width: 45px;
+    position: relative;
+    bottom: 25px;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.arrow:hover {
+    position: relative;
+    bottom: 24px;
+}
+
+/*continue*/
+
+.continue {
+    padding: 32px 0 20px 125px;
+}
+
+.continue input {
+    justify-content: center;
+    width: 120px;
+    height: 45px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.continue input[type="submit"]:hover {
+    position: relative;
+    top: 1px;
+}
+
+
+
+@media screen and (max-width:500px) {
+/*billing address*/
+.dropdown {
+    width: 260px;
+}
+
+.switch {
+    width: 10px;
+    height: 10px;
+    margin: 0 10px 0 0;
+}
+
+.arrow {
+    width: 32px;
+}
+/*continue*/
+.continue {
+    padding: 20px 0 10px 85px;
+}
+
+.continue input {
+    width: 90px;
+    height: 33px;
+}
+
+.continue input[type="submit"]:hover {
+    position: relative;
+    top: 1px;
+}
+}
+
+
+
+
+
+
+/*product*/
+.whole-order-summary-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -10px;
+}
+
+.order-summary-panel {
+    width: 448px;
+    height: 470px;
+    top: 185px;
+    left: 460px;
+    border-radius: 45px;
+    padding: 25px;
+}
+
+.order-summary-content {
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+
+.order-summary-content h2 {
+    padding: 18px 20px 20px 0;
+}
+
+.order-summary-panel h3 {
+    padding: 18px 20px;
+}
+
+.order-summary-panel h3 {
+    padding: 18px 40px;
+}
+
+.product-name {
+    position: relative;
+    bottom: 26px;
+}
+
+.product {
+    height: 200px;
+    border-radius: 20px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 8px;
+}
+
+.product .image {
+    padding: 22px;
+    border-radius: 10px;
+    position: relative;
+    left: -20px;
+    width: 140px;
+}
+
+.image img {
+    width: 95px;
+}
+
+/*product name*/
+
+/*product-info*/
+.product-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+    position: relative;
+    left: 15px;
+}
+
+
+.product-info .numberofitem p {
+    border-radius: 60px;
+    padding: 6px 15px;
+
+}
+
+/*shipping*/
+.shipping {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 385px;
+    bottom: 12px;
+}
+
+/*total*/
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 20px;
+    height: 90px;
+    margin: 0 -25px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+/*place order*/
+.place-order {
+    padding: 35px 0 0 0;
+}
+
+.place-order input {
+    justify-content: center;
+    width: 140px;
+    height: 45px;
+    border: none;
+    background: #D3D3D3;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+@media screen and (max-width:500px) {
+    .whole-order-summary-panel {
+        display: none;
+        visibility: hidden;
+    }
+
+}

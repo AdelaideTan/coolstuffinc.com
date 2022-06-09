@@ -1,0 +1,682 @@
+:root {
+    --primary-font: 'Avenir Next';
+    --secondary-font: 'Helvetica Neue';
+}
+
+* {
+    text-decoration: none;
+}
+
+/*basic setup*/
+h2 {
+    font-family: var(--primary-font);
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+#title {
+    font-family: var(--primary-font);
+    /*looks biger then xd*/
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/* header start */
+/* add search bar */
+.search-bar input {
+    font-size: 12px;
+    font-weight: 725;
+}
+
+/*edit icon*/
+
+
+
+
+/*title & go back button*/
+.title_section h1 {
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: bold;
+    color: #1B215C;
+    text-align: center;
+}
+
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+    .title_section h1 {
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+/*product image & name*/
+/*number of product*/
+#minus1 {
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#plus1 {
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.numberofitemtobuy input {
+    font-size: 12px;
+    font-weight: 725;
+
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/*buy-btm*/
+.buy-btn {
+    font-family: var(--primary-font);
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/*discription*/
+.description {
+    font-family: var(--primary-font);
+    font-size: 30px;
+    font-weight: bold;
+
+
+
+}
+
+.description_text {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: 400;
+    color: #1B215C;
+    width: 550px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+
+    /*product name*/
+    .about-product h3 {
+        font-size: 24px;
+    }
+
+    .price_before {
+        font-size: 24px;
+    }
+
+    .price_after {
+        font-size: 24px;
+    }
+
+    .stock {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /*number of product*/
+    #minus1 {
+        font-size: 18px;
+
+    }
+
+    #plus1 {
+        font-size: 18px;
+    }
+
+    .numberofitemtobuy input {
+        font-size: 18px;
+    }
+
+
+    /*buy-btm*/
+    .buy-btn {
+        font-size: 18px;
+    }
+
+    /*discription*/
+    .description {
+        font-size: 24px;
+    }
+
+    .description_text {
+        width: 300px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+}
+
+
+
+
+
+
+
+
+
+/*detail & review*/
+#detailandreview h3 {
+    font-size: 30px;
+}
+
+/*detail*/
+.product-detail-dropdown {
+    width: 530px;
+    height: 475px;
+}
+
+
+.detial td {
+    font-family: var(--primary-font);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.detial .info {
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+/*review*/
+.view_all {
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+
+/* for amazing game */
+.amazing_game .des {
+    font-family: var(--secondary-font);
+    font-size: 19px;
+    font-weight: 400;
+    width: 400px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.5;
+}
+
+.amazing_game .customer_review_title {
+    font-family: var(--secondary-font);
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.amazing_game .customer_review_date {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+
+    /*detail & review*/
+    #detailandreview h3 {
+        font-size: 24px;
+    }
+
+    /*detail*/
+    .detial td {
+        font-size: 16px;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .detial .info {
+        font-size: 13px;
+    }
+
+    /*review*/
+    .view_all {
+        font-family: var(--primary-font);
+        font-weight: bold;
+    }
+
+    /* for amazing game */
+    .amazing_game .des {
+        font-size: 13px;
+        width: 250px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        line-height: 1.5;
+    }
+
+    .amazing_game .customer_review_title {
+        font-size: 20px;
+    }
+
+    .amazing_game .customer_review_date {
+        font-size: 10px;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+/*you_might_also_like-product list*/
+.box .image {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*product name*/
+.price_before {
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: line-through;
+
+}
+
+.price_after {
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: bold;
+
+
+}
+
+
+.stock {
+    font-family: var(--primary-font);
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*product list*/
+.box .title {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    line-height: 1;
+    position: relative;
+    top: 19px;
+
+}
+
+.box .price_before {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 12px;
+    text-decoration: line-through;
+    margin-bottom: auto;
+}
+
+.box .price_after {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: 7px;
+
+}
+
+.box .price_3 {
+    position: relative;
+    top: 15px;
+}
+
+.box .price_4 {
+    position: relative;
+    top: 22px;
+}
+
+.box .out_of_stock {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    bottom: 25px;
+    margin-bottom: 30px;
+    padding-top: 5px;
+}
+
+.box .quick_add {
+    font-family: var(--primary-font);
+    font-size: 19px;
+    font-weight: 400;
+    margin: 15px;
+}
+
+.box .info .title:hover {
+    text-decoration: underline;
+}
+
+/*product list-quick add*/
+.box .info_2 h3 {
+    font-size: 14px;
+    width: 250px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+
+
+
+
+
+
+
+/*newsletter*/
+#newsletter h2 {
+    font-family: var(--primary-font);;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.newsletter_content input {
+    font-size: 12px;
+    font-weight: 725;
+}
+
+.newsletter_content button {
+    font-size: 13px;
+    font-weight: 725;
+}
+
+@media screen and (max-width:500px) {
+    #newsletter h2 {
+        font-size: 27px;
+    }
+
+    .newsletter_content input {
+        font-size: 9px;
+    }
+
+    .newsletter_content button {
+        font-size: 9px;
+    }
+}
+
+
+
+
+/*footer*/
+
+/*footer_2*/
+#footer_2 a {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/*back_to_top_button*/
+
+
+
+
+@media screen and (max-width:500px) {
+/*footer*/
+
+/*footer_2*/
+#footer_2 a {
+    font-size: 9px;
+}
+
+/*back_to_top_button*/
+}
+
+
+
+
+
+/*cart*/
+/*products tag*/
+.product-in-cart {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/*price*/
+.price_before-in-cart {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.price_after-in-cart {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*number of product*/
+#minus {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#plus {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.product-info #input {
+    font-weight: 725;
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*remove btn*/
+.remove-btn {
+    font-family: var(--primary-font);
+    font-size: 8px;
+    font-weight: bold;
+
+}
+
+/*total-price*/
+.total-price {
+    font-family: var(--primary-font);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/*checkout-button*/
+.checkout-button > button {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:500px) {
+    .total-price {
+        font-family: var(--primary-font);
+        font-size: 19px;
+        font-weight: bold;
+    }
+
+}
+
+
+
+
+
+/*login*/
+/*login-content*/
+.login-content h1 {
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.txt_field input {
+    font-size: 12px;
+    font-weight: 725;
+}
+
+.txt_field label {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 12px;
+    font-weight: 725;
+}
+
+.pass {
+    font-family: var(--primary-font);
+    font-size: 12px;
+    color: #FABA00;
+}
+
+.pass:hover {
+    text-decoration: underline;
+}
+
+.remember {
+    font-family: var(--primary-font);
+    font-size: 12px;
+}
+
+
+input[type="submit"] {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.signup_link a {
+    font-family: var(--primary-font);
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup_link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+@media screen and (max-width:500px) {
+
+    /*login*/
+    /*login-content*/
+    .login-content h1 {
+        font-size: 25px;
+    }
+
+    .txt_field label {
+        font-size: 9px;
+    }
+
+    .txt_field input {
+        font-size: 9px;
+    }
+
+    .pass {
+        font-size: 8px;
+    }
+
+    .remember {
+        font-size: 9px;
+
+    }
+
+    input[type="submit"] {
+        font-size: 13px;
+    }
+
+    .signup_link a {
+        font-size: 9px;
+    }
+}

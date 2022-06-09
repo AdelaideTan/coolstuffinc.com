@@ -1,0 +1,32 @@
+:root {
+    --white: #FFFFFF;
+    --lightgray: #F5F5F5;
+    --lightgray-1: #C9C9C9;
+    --lightgray-2: #CECECE;
+    --lightgray-3: #D3D3D3;
+    --gray-1: #696969;
+    --gray: #454545;
+    --blue: #1B215C;
+    --superlightblue: rgba(27, 33, 92, 49%);
+    --lightblue: rgba(27, 33, 92, 73%);
+    --abitlightblue: rgba(27, 33, 92, 88%);
+    --orange: #EB6649;
+    --yellow: #FABA00;
+    --black: black;
+}
+
+
+.go_back button {
+    background: var(--white);
+}
+
+p {
+    color: var(--blue);
+}
+
+@media screen and (max-width:500px) {
+    p {
+        color: var(--blue);
+    }
+
+}

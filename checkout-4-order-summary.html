@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css-folder/reset.css">
+    <link rel="stylesheet" href="css-folder/checkout/checkout-4/main-checkout-4-order-summary.css">
+</head>
+
+<body>
+    <div class="header">
+        <ul class="header-content">
+            <li>
+                <div class="go_back back_to_previous">
+                    <a href="checkout-3-payment-methods.html"><button><img src="img/back to previous page.svg" alt="" class="x_mark"></button></a>
+                </div>
+            </li>
+            <li> 
+                <p>Checkout</p>
+            </li>
+            <li>
+                <div class="go_back x_mark">
+                    <a href="index.html"><button><img src="img/x mark.svg" alt="" class="x_mark"></button></a>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+
+    <div>
+        <div class="process">
+            <ul class="process-content">
+                <li>
+                    <p class="reached-stage">1</p>
+                </li>
+                <li>
+                    <p class="unreached-stage">2</p>
+                </li>
+                <li>
+                    <p class="unreached-stage reached-stage-3">3</p>
+                </li>
+            </ul>
+        </div>
+        <div class="process-text">
+            <ul class="process-text-line">
+                <li>
+                    <p class="reached-stage-text">Address Info</p>
+                </li>
+                <li>
+                    <p class="unreached-stage-text">Shipping</p>
+                </li>
+                <li>
+                    <p class="unreached-stage-text ust2 reached-stage-text-3">Payment</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="checkoutsection">
+
+        <div class="whole-address-panel">
+            <div class="address-panel">
+                <div class="address-content">
+                    <div class="subheader-1">
+                        <h1>Address Info</h1>
+                        <a href="checkout-1-address-info.html">
+                            <p>Edit</p>
+                        </a>
+                    </div>
+                    <form method="post">
+                        <div class="finished_txt_field">
+                            <label>Name</label>
+                            <p><span id="result-fullname" /></p>
+                        </div>
+
+                        <div class="finished_txt_field">
+                            <label>Phone</label>
+                            <p><span id="result-phone-number" /></p>
+                        </div>
+
+                        <div class="finished_txt_field_shipping">
+                            <h2>Shipping Address</h2>
+                            <p><span id="result-address" /></p>
+                        </div>
+                        <div class="billingsection">
+                            <h2>Billing Address</h2>
+                            <div class="dropdown">
+                                <div class="checkbox">
+                                    <label class="switch">
+                                        <input type="checkbox">
+                                        <span class="slider"></span>
+                                    </label>
+                                    <p class="billing-address">Same as shipping address</p>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="shipping-options-panel">
+                <div class="shipping-options-content">
+                    <h1>Shipping Options</h1>
+                    <form method="post">
+                        <h2>Shipping Method</h2>
+
+                        <div class="checkbox-1">
+                            <label class="switch-1">
+                                <input type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                            <p class="billing-address">Express Shipping</p>
+                        </div>
+
+                        <div class="dropdown-1">
+                            <h2>Pick Up Options</h2>
+                            <img src="img/arrow.svg" alt="" class="face-right-arrow">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="payment-methods-panel">
+                <div class="payment-methods-content">
+                    <h1>Payment Methods</h1>
+                    <form method="post">
+                        <div class="credit-card-debit-card">
+                            <div class="checkbox-3">
+                                <label class="switch-3">
+                                    <input type="checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                                <h2>Credit Card or Debit Card</h2>
+                            </div>
+                            <div class="card-info">
+                                <div class="txt_field">
+                                    <label>Card Number</label>
+                                    <p><span id="result-card-number" /></p>
+                                </div>
+                                <div class="txt_field">
+                                    <label>Name</label>
+                                    <p><span id="result-name-on-card" /></p>
+                                </div>
+                                <div class="txt_field">
+                                    <label>Expiration Dates</label>
+                                    <div class="expiration-dates">
+                                        <p><span id="MM" /></p>
+                                        <p><span id="YYYY" /></p>
+                                        <p><span id="CVV" /></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="cvv">
+                            <img src="img/question.png" alt="">
+                        </div>
+
+                        <div class="checkbox-3 pay-in-other-way">
+                            <label class="switch-3">
+                                <input type="checkbox">
+                                <span class="slider-1"></span>
+                            </label>
+                            <h2>PayPal</h2>
+                        </div>
+                        <div class="checkbox-3 pay-in-other-way">
+                            <label class="switch-3">
+                                <input type="checkbox">
+                                <span class="slider-1"></span>
+                            </label>
+                            <h2>Gift Certificate</h2>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="whole-order-summary-panel">
+            <div class="order-summary-panel">
+                <div class="order-summary-content">
+                    <h1>Order Summary</h1>
+
+                    <div class="product">
+                        <div class="image">
+                            <img src="img/img_productlists/product 5.png" alt="">
+                        </div>
+
+                        <div class="product-info">
+                            <div class="numberofitem">
+                                <p>1</p>
+                            </div>
+                            <div class="price">
+                                <p class="price-for-this-item">$21.99</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <p class="product-name">7 Summits</p>
+
+                    <div class="shipping">
+                        <h2>Shipping</h2>
+                        <h2>Free</h2>
+                    </div>
+                </div>
+
+                <div class="total">
+                    <h3>Total</h3>
+                    <h3>$21.99</h3>
+                </div>
+            </div>
+            <form action="order-confirmation.html" method="get">
+            <div class="place-order">
+                <input type="submit" value="Place Order">
+            </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript-folder/checkout/checkout-4-order-summary.js"></script>
+</body>
+
+</html>

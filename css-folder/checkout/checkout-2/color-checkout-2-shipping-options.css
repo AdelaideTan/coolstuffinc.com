@@ -1,0 +1,261 @@
+:root {
+    --white: #FFFFFF;
+    --lightgray: #F5F5F5;
+    --lightgray-1: #C9C9C9;
+    --lightgray-2: #CECECE;
+    --lightgray-3: #D3D3D3;
+    --gray-1: #696969;
+    --gray: #454545;
+    --blue: #1B215C;
+    --superlightblue: rgba(27, 33, 92, 49%);
+    --lightblue: rgba(27, 33, 92, 73%);
+    --abitlightblue: rgba(27, 33, 92, 88%);
+    --orange: #EB6649;
+    --yellow: #FABA00;
+    --black: black;
+}
+
+* {
+    margin: 0;
+    text-decoration: none;
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/* header start */
+.go_back button {
+    background-color: var(--white);
+}
+
+/*process light*/
+.process-content p {
+    color: var(--white);
+    background-color: var(--lightgray-3);
+}
+
+.process-content .unreached-stage {
+    background-color: var(--lightgray-3);
+}
+
+.process-content .reached-stage-2 {
+    background-color: var(--blue);
+}
+
+/*process text*/
+.process-text-line p {
+    color: var(--blue);
+}
+
+.process-text-line li .reached-stage-text {
+    color: var(--lightgray-3);
+}
+
+.process-text-line li .reached-stage-text-2 {
+    color: var(--blue);
+}
+
+
+.reached-stage-text::after {
+    background: var(--lightgray-3);
+}
+
+.process-text-line .unreached-stage-text {
+    color: var(--lightgray-3);
+
+}
+
+.unreached-stage-text::after {
+    background: var(--lightgray-3);
+
+}
+
+.process-text-line .reached-stage-text-2::after {
+    background: var(--blue);
+
+}
+
+
+
+
+
+
+
+/*checkout section finished*/
+/*.container {
+    width: 100%;
+}*/
+/*address info & order smmary*/
+
+/*address info & shipping option & continue*/
+/*address info*/
+.address-panel {
+    background-color: #363740;
+
+}
+
+.address-content h1 {
+    color: var(--white);
+}
+.address-content .subheader-1 p {
+    color: var(--white);
+}
+
+.address-content h2 {
+    color: var(--white);
+}
+
+.finished_txt_field label {
+    color: var(--white);
+}
+
+
+.finished_txt_field p {
+    color: black;
+    background: var(--white);
+
+    box-shadow: inset 2px 2px 3px var(--lightgray-2);
+
+}
+
+.finished_txt_field_shipping p {
+    color: black;
+    background: var(--white);
+    box-shadow: inset 2px 2px 3px var(--lightgray-2);
+}
+
+
+
+
+
+
+
+/*billing address*/
+
+.billing-address {
+    color: var(--white);
+}
+
+.slider {
+    background-color: var(--yellow);
+
+}
+
+
+.switch input:checked+.slider {
+    background-color: var(--white);
+}
+
+/*continue*/
+input:checked+.slider {
+    background-color: var(--yellow);
+}
+
+.continue input {
+    background: var(--yellow);
+    color: var(--white);
+}
+
+
+
+
+
+
+
+
+/*shipping-options-panel*/
+.shipping-options-panel {
+    background-color: var(--blue);
+
+}
+
+.shipping-options-content h1 {
+    color: var(--white);
+}
+
+.shipping-options-content h2 {
+    color: var(--white);
+    
+}
+
+/*pick up options*/
+.slider-1 {
+    background-color: var(--white);
+}
+
+input:checked+.slider-1 {
+    background-color: var(--yellow);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*whole-order-summary-panel*/
+.order-summary-panel {
+    background-color: var(--blue);
+}
+
+.order-summary-content h1 {
+    color: var(--white);
+}
+
+.order-summary-content h2 {
+    color: var(--white);
+}
+
+.order-summary-panel h3 {
+    color: var(--white);
+}
+
+.product-name{
+    color: var(--white);
+}
+
+.product {
+    color: var(--white);
+}
+
+.product .image {
+    background-color: var(--lightgray);
+}
+
+/*product name*/
+
+/*product-info*/
+.price-for-this-item {
+    color: var(--white);
+}
+
+.product-info .numberofitem p {
+    background: var(--lightgray);
+    color: var(--black);
+}
+
+/*shipping*/
+
+/*total*/
+.total {
+    background-color: var(--orange);
+}
+
+/*place order*/
+
+.place-order input {
+    background: var(--lightgray-3);
+    color: var(--white);
+}

@@ -1,0 +1,28 @@
+:root {
+    --primary-font: 'Avenir Next';
+    --secondary-font: 'Helvetica Neue';
+}
+
+p {
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#navpage-content li a {
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:500px) {
+
+    p {
+        font-family: var(--primary-font);
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+
+    }
+
+}

@@ -1,0 +1,206 @@
+:root {
+    --primary-font: 'Avenir Next';
+}
+
+* {
+    text-decoration: none;
+}
+
+
+/* header start */
+.header-content p {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 31px;
+}
+
+/*process light*/
+.process-content p {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 19px;
+}
+
+/*process text*/
+.process-text-line p {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width:500px) {
+/* header start */
+.header-content p {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+
+/*process light*/
+.process-content p {
+    font-size: 15px;
+}
+
+.process-text-line p {
+    font-size: 9px;
+}
+
+}
+
+
+
+
+
+
+
+/*checkout section*/
+
+/*address-content*/
+.address-content h1 {
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.address-content h2 {
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.txt_field input {
+    font-size: 13px;
+    font-weight: 725;
+}
+
+.txt_field label {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: 725;
+}
+
+@media screen and (max-width:500px) {
+/*checkout section*/
+/*address-content*/
+.address-content h1 {
+    font-size: 18px;
+}
+
+.address-content h2 {
+    font-size: 12px;
+}
+
+.txt_field label {
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.txt_field input {
+    font-size: 9px;
+    font-weight: 600;
+}
+
+
+}
+
+
+
+/*billing address*/
+.billing-address {
+    font-family: var(--primary-font);
+    font-size: 12px;
+}
+
+/*continue*/
+.continue input {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:500px) {
+/*billing address*/
+.billing-address {
+    font-size: 9px;
+}
+/*continue*/
+.continue input {
+    font-size: 12px;
+}
+}
+
+
+
+
+
+
+/*product*/
+.order-summary-content h1 {
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.order-summary-content h2 {
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.order-summary-panel h3 {
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product-name {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product {
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+
+/*product name*/
+
+/*product-info*/
+.price-for-this-item {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.product-info .numberofitem p {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*shipping*/
+
+/*total*/
+
+
+
+
+
+
+
+
+
+/*place order*/
+.place-order {
+    padding: 35px 0 0 0;
+}
+
+.place-order input {
+    font-size: 17px;
+    font-weight: bold;
+}

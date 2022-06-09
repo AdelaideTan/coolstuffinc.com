@@ -1,0 +1,725 @@
+:root {
+    --white: #FFFFFF;
+    --lightgray: #F5F5F5;
+    --lightgray-1: #C9C9C9;
+    --lightgray-2: #CECECE;
+    --lightgray-3: #D3D3D3;
+    --gray-1: #696969;
+    --gray: #454545;
+    --blue: #1B215C;
+    --superlightblue: rgba(27, 33, 92, 49%);
+    --lightblue: rgba(27, 33, 92, 73%);
+    --abitlightblue: rgba(27, 33, 92, 88%);
+    --orange: #EB6649;
+    --yellow: #FABA00;
+    --black: black;
+}
+
+/*basic setup*/
+h2 {
+    color: var(--white);
+}
+
+h3 {
+    color: var(--blue);
+}
+
+body {
+    background: var(--blue);
+}
+
+.section-p1 {
+    background-color: var(--white);
+}
+
+.section-p3 {
+    background-color: var(--white);
+}
+
+
+
+
+
+
+
+
+
+
+/* header start */
+#header-content {
+    background: var(--white);
+}
+
+.header {
+    background: var(--white);
+}
+
+
+/* add search bar */
+.search-bar input {
+    color: var(--gray);
+    background: var(--lightgray);
+    box-shadow: inset 2px 2px 3px var(--lightgray-2);
+}
+
+::placeholder {
+    color: var(--lightgray-3);
+}
+
+.search-bar button {
+    background: var(--white);
+}
+
+
+
+/*edit icon*/
+.slider {
+    background-color: var(--white);
+}
+
+input:checked+.slider {
+    background-color: var(--yellow);
+}
+
+
+
+
+
+
+
+
+/*title & go back button*/
+.title_section button {
+    background: var(--white);
+}
+
+.title_section h1 {
+    color: var(--blue);
+}
+
+
+
+
+
+
+
+
+
+/*product image & name*/
+.box_1 {
+    background-color: var(--white);
+}
+
+.box_1 .image {
+    background-color: var(--lightgray);
+}
+
+
+/*product list-like button*/
+.overlay_arrow {
+    filter: drop-shadow(3px 0 3px rgb(0 0 0 / 0.2));
+}
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+
+    /*product image*/
+    .box_1 .image {
+        background-color: var(--lightgray);
+
+    }
+}
+
+
+
+
+
+/*product name*/
+.price_before {
+    color: rgba(27, 33, 92, 49%);
+
+}
+
+.price_after {
+    color: var(--orange);
+
+}
+
+.stock {
+    color: var(--white);
+    background-color: var(--orange);
+
+}
+
+
+
+/*number of product*/
+#minus1 {
+    color:  var(--white);
+    background-color: var(--blue);
+}
+
+#plus1 {
+    color:  var(--white);
+    background-color: var(--blue);
+}
+
+.numberofitemtobuy input {
+    background: var(--lightgray);
+    box-shadow: inset 2px 2px 3px var(--lightgray-2);
+    color: black;
+}
+
+::placeholder {
+    color: var(--lightgray-3);
+}
+
+
+
+
+
+/*buy-btm*/
+.buy-btn {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.buy-btn:hover {
+    background-color: var(--yellow);
+}
+
+/*discription*/
+.description {
+    color: var(--blue);
+}
+
+.description_text {
+    color: var(--blue);
+
+}
+
+
+
+
+
+
+
+
+
+
+/*detail & review*/
+#detailandreview .row {
+    background-color: var(--blue);
+}
+
+#detailandreview h3 {
+    color: var(--white);
+}
+
+/*detail*/
+.product-detail-dropdown .product-detail-dropdown-arrow {
+    filter: drop-shadow(3px 0 3px rgb(0 0 0 / 0.2));
+}
+
+.product-detail-gradient {
+    background-image: linear-gradient(rgba(255, 0, 0, 0) 65%, rgba(206, 206, 206, 1));
+}
+
+.detial {
+    background-color: #FFFFFF;
+
+}
+
+.detial td {
+    border: 4px solid var(--blue);
+    color: var(--blue);
+}
+
+/*review*/
+.product_customer_review-dropdown-arrow {
+    filter: drop-shadow(3px 0 3px rgb(0 0 0 / 0.2));
+
+}
+
+.product_customer_review-gradient {
+    background-image: linear-gradient(rgba(255, 0, 0, 0) 65%, rgba(206, 206, 206, 1));
+}
+
+
+.review_viewall button {
+    background: var(--blue);
+
+}
+
+/* for amazing game */
+.view_all {
+    color: var(--white);
+}
+
+.amazing_game {
+    background-color: var(--white);
+}
+
+
+.amazing_game .des {
+    color: var(--lightgray-1);
+}
+
+.amazing_game .customer_review_title {
+    color: var(--gray-1);
+
+}
+
+.amazing_game .customer_review_date {
+    color: var(--lightgray-1);
+}
+
+
+
+
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+    .product-detail-gradient {
+        background-image: linear-gradient(rgba(255, 0, 0, 0) 65%, rgba(206, 206, 206, 1));
+    }
+
+    .detial td {
+        border: 2px solid var(--blue);
+    }
+
+    /*review*/
+    .product_customer_review-gradient {
+        background-image: linear-gradient(rgba(255, 0, 0, 0) 65%, rgba(206, 206, 206, 1));
+    }
+
+    .review_viewall button {
+        background: var(--blue);
+    }
+
+    .view_all {
+        color: var(--white);
+    }
+
+    /* for amazing game */
+}
+
+
+
+
+
+
+
+
+
+
+/*you_might_also_like-product list*/
+#you_might_also_like {
+    background-color: var(--white);
+}
+
+/*overlay_arrow_youmightalsolike*/
+.arrow {
+    filter: drop-shadow(3px 0 3px rgb(0 0 0 / 0.2));
+}
+
+/*product list-like button*/
+/*product list-quick add*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*product list*/
+.box {
+    background: var(--white);
+}
+
+.box:hover {
+    /*add hover*/
+    filter: drop-shadow(0, 3px 5px rgba(0, 0, 0, 0.7));
+}
+
+.box .image {
+    background-color: var(--lightgray);
+}
+
+#title .board_games {
+    color: var(--blue);
+}
+
+#sort_and_filter .sortfilter {
+    color: var(--white);
+}
+
+.box .title {
+    color: var(--blue);
+}
+
+.box .price_before {
+    color: var(--superlightblue);
+}
+
+.box .price_after {
+    color: var(--orange);
+}
+
+.box .out_of_stock {
+    color: var(--superlightblue);
+}
+
+
+/*product list-quick add*/
+
+.overlay {
+    background: var(--lightblue);
+}
+
+.overlay:hover {
+    background: var(--abitlightblue);
+}
+
+.overlay_1 {
+    background: var(--lightblue);
+}
+
+.overlay_1:hover {
+    background: var(--abitlightblue);
+}
+
+.overlay_2 {
+    background: var(--lightblue);
+}
+
+.overlay_2:hover {
+    background: var(--abitlightblue);
+}
+
+.overlay_3 {
+    background: var(--lightblue);
+}
+
+.overlay_3:hover {
+    background: var(--abitlightblue);
+}
+
+.box .quick_add {
+    color: var(--white);
+}
+
+
+
+
+/*newsletter*/
+#newsletter h2 {
+    color: var(--white);
+}
+
+.newsletter_content input {
+    color: var(--gray);
+    background: var(--lightgray);
+    box-shadow: inset 2px 2px 3px var(--lightgray-2);
+}
+
+.newsletter_content button {
+    color: var(--white);
+    background: var(--yellow);
+}
+
+
+
+
+
+/*footer*/
+
+/*footer_2*/
+#footer_2 a {
+    color: var(--white);
+}
+
+#footer_2 .follow a:hover {
+    color: var(--lightgray-2);
+}
+
+#back_to_top_button {
+    background: rgba(250, 186, 0, 0);
+}
+
+
+
+
+/*cart*/
+.cart-button>button {
+    background: var(--white);
+
+}
+
+.cart-panel-background {
+    background-color: rgba(27, 33, 92, 38%);
+}
+
+.cart-panel {
+    background: var(--white);
+}
+
+.cart-header>button {
+    background-color: var(--white);
+}
+
+
+/*products tag*/
+.product {
+    color: var(--blue);
+}
+
+.image {
+    background-color: var(--lightgray);
+}
+
+
+/*product info*/
+
+/*product name*/
+
+/*price*/
+.price_before {
+    color: rgba(27, 33, 92, 49%);
+
+}
+
+.price_after {
+    color: var(--orange);
+
+}
+
+/*number of product*/
+#minus {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+#plus {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.product-info #input {
+    color: var(--gray);
+    background: var(--lightgray);
+    box-shadow: inset 2px 2px 3px var(--lightgray-2);
+
+    color: var(--black);
+}
+
+::placeholder {
+    color: var(--lightgray-3);
+}
+
+/*remove btn*/
+.remove-btn {
+    color: var(--lightgray-1);
+    background-color: var(--white);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 16%);
+}
+
+
+/*total-price*/
+.total-price {
+    color: var(--blue);
+}
+
+/*checkout-button*/
+.checkout-button>button {
+    background: var(--blue);
+    color: var(--white);
+}
+
+.checkout-button .checkout:hover {
+    background-color: var(--yellow);
+}
+
+@media screen and (max-width:500px) {
+    .total-price {
+        color: var(--blue);
+
+    }
+
+}
+
+
+
+/*cart*/
+.cart-button>button {
+    background: var(--white);
+}
+
+.cart-panel-background {
+    background-color: rgba(27, 33, 92, 38%);
+}
+
+.cart-panel {
+    background: var(--white);
+}
+
+
+.cart-header>button {
+    background-color: var(--white);
+}
+
+
+/*products tag*/
+
+.product-in-cart {
+    color: var(--blue);
+}
+
+.product-in-cart .image {
+    background-color: var(--lightgray);
+}
+
+
+/*product info*/
+
+/*product name*/
+/*price*/
+.price_before-in-cart {
+    color: rgba(27, 33, 92, 49%);
+
+}
+
+.price_after-in-cart {
+    color: var(--orange);
+
+}
+
+
+/*number of product*/
+#minus {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+
+#plus {
+    color: var(--white);
+    background-color: var(--blue);
+
+}
+
+.product-info #input {
+    color: #454545;
+    background: var(--lightgray);
+    box-shadow: inset 2px 2px 3px var(--lightgray-2);
+    color: black;
+}
+
+::placeholder {
+    color: var(--lightgray-3);
+}
+
+/*remove btn*/
+.remove-btn {
+    color: var(--lightgray-1);
+    background-color: var(--white);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 16%);
+}
+
+
+/*total-price*/
+.total-price {
+    color: var(--blue);
+}
+
+/*checkout-button*/
+.checkout-button > button {
+    background: var(--blue);
+    color: var(--white);
+
+}
+
+.checkout-button .checkout:hover {
+    background-color: var(--yellow);
+}
+
+@media screen and (max-width:500px) {
+.total-price {
+    color:  var(--blue);
+}
+
+}
+
+
+
+/*login*/
+/*.container {
+    width: 100%;
+}*/
+.login-button>button {
+    background: var(--white);
+}
+
+.login-panel-background {
+    background-color: rgba(255, 255, 255, 60%);
+}
+
+.login-panel {
+    background-color: var(--blue);
+}
+
+/*login-content*/
+.login-content h1 {
+    color: var(--white);
+}
+
+.txt_field input {
+    color: var(--black);
+    background: var(--white);
+    box-shadow: inset 2px 2px 3px var(--lightgray-2);
+}
+
+::placeholder {
+    color: var(--lightgray-3);
+}
+
+.txt_field label {
+    color: var(--white);
+}
+
+.pass {
+    color: var(--yellow);
+}
+
+.remember {
+    color: var(--white);
+}
+
+.slider {
+    background-color: var(--white);
+}
+
+input:checked+.slider {
+    background-color: var(--yellow);
+}
+
+input[type="submit"] {
+    background: var(--yellow);
+    color: var(--white);
+}
+
+.signup_link a {
+    color: var(--white);
+
+}

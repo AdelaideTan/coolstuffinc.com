@@ -1,0 +1,497 @@
+:root {
+    --primary-font: 'Avenir Next';
+    --secondary-font: 'Helvetica Neue';
+}
+
+/*basic setup*/
+h3 {
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: bold;
+    width: 160px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: right;
+}
+
+h4 {
+    font-family: var(--primary-font);
+    font-size: 32px;
+    font-weight: bold;
+
+}
+
+h5 {
+    font-family: var(--secondary-font);
+    font-size: 29px;
+    font-weight: bold;
+    text-align: left;
+}
+
+h6 {
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+}
+
+/* header start */
+/* add search bar */
+.search-bar input {
+    font-size: 12px;
+    font-weight: 725;
+}
+
+/*edit icon*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*home page top*/
+.slogan_1 {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.slogan_2 {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 0;
+}
+
+/* group the text, homepage img_2 & homepage img_3*/
+
+
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+
+    /*home page top*/
+     .slogan_1 {
+        font-size: 50px;
+        width: 200px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+    }
+
+    .slogan_2 {
+        font-size: 50px;
+        line-height: 1.3;
+    }
+}
+
+
+
+
+
+
+/* create feature */
+/* Image zoom on hover + Overlay colour */
+.parent_1 a {
+    text-decoration: none;
+
+}
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+
+    /* Image zoom on hover + Overlay colour */
+
+    .parent_1 a h3 {
+        font-size: 22px;
+        width: 120px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        text-align: right;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*create feature section */
+#feature_2 {
+    text-align: center;
+}
+
+#feature_2 p {
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: normal;
+    width: 300px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: right;
+    text-align: left;
+}
+
+/* Image zoom on hover + Overlay colour */
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+    /*create feature section */
+
+    #feature_2 p {
+        font-family: var(--primary-font);;
+        font-size: 25px;
+        font-weight: normal;
+        width: 300px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        text-align: right;
+        text-align: left;
+    }
+
+    #feature_2 h4 {
+        font-size: 25px;
+    }
+
+    /* Image zoom on hover + Overlay colour */
+    .parent_2 a {
+        text-decoration: none;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* for amazing game */
+#feature_2 p {
+    font-family: var(--primary-font);
+    font-size: 23px;
+    font-weight: 500;
+    width: 300px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: right;
+    text-align: left;
+}
+
+
+/* Image zoom on hover + Overlay colour */
+
+.parent_3 a {
+    text-decoration: none;
+
+}
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+    .customers_review_with_title h5 {
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .customers_review_with_title h6 {
+        font-size: 12px;
+        text-align: right;
+    }
+
+    /* for amazing game */
+    #feature_2 p {
+        font-size: 16px;
+        width: 205px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-word;
+        text-align: right;
+        text-align: left;
+    }
+
+    /*star*/
+}
+
+
+
+
+
+
+
+
+/*newsletter*/
+#newsletter h2 {
+    font-family: var(--primary-font);;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.newsletter_content input {
+    font-size: 12px;
+    font-weight: 725;
+}
+
+.newsletter_content button {
+    font-size: 13px;
+    font-weight: 725;
+}
+
+
+@media screen and (max-width:500px) {
+    #newsletter h2 {
+        font-size: 27px;
+    }
+
+    .newsletter_content input {
+        font-size: 9px;
+    }
+
+    .newsletter_content button {
+        font-size: 9px;
+    }
+}
+
+
+
+
+
+
+
+/*footer*/
+
+/*footer_2*/
+#footer_2 a {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 300;
+}
+
+/*back_to_top_button*/
+
+
+
+
+@media screen and (max-width:500px) {
+/*footer*/
+
+/*footer_2*/
+#footer_2 a {
+    font-size: 9px;
+}
+
+/*back_to_top_button*/
+}
+
+
+
+
+
+
+
+/*cart*/
+/*products tag*/
+.product {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+/*product info*/
+
+/*product name*/
+
+/*price*/
+.price_before {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: line-through;
+
+}
+
+.price_after {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/*number of product*/
+#minus {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+#plus {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+.product-info #input {
+    font-weight: 725;
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/*remove btn*/
+.remove-btn {
+    font-family: var(--primary-font);
+    font-size: 8px;
+    font-weight: bold;
+}
+
+
+/*total-price*/
+.total-price {
+    font-family: var(--primary-font);
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/*checkout-button*/
+.checkout-button > button {
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:500px) {
+    .total-price {
+        font-family: var(--primary-font);
+        font-size: 19px;
+        font-weight: bold;
+    }
+
+}
+
+
+
+
+
+
+
+/*login*/
+/*login-content*/
+.login-content h1 {
+    text-align: center;
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.txt_field input {
+    font-size: 12px;
+    font-weight: 725;
+}
+
+.txt_field label {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 12px;
+    font-weight: 725;
+}
+
+.pass {
+    font-family: var(--primary-font);
+    font-size: 12px;
+    color: #FABA00;
+}
+
+.pass:hover {
+    text-decoration: underline;
+}
+
+.remember {
+    font-family: var(--primary-font);
+    font-size: 12px;
+}
+
+
+input[type="submit"] {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.signup_link a {
+    font-family: var(--primary-font);
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup_link a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+@media screen and (max-width:500px) {
+/*login*/
+/*login-content*/
+.login-content h1 {
+    font-size: 25px;
+}
+
+.txt_field label {
+    font-size: 9px;
+}
+
+.txt_field input {
+    font-size: 9px;
+}
+
+.pass {
+    font-size: 8px;
+}
+
+.remember {
+    font-size: 9px;
+
+}
+
+input[type="submit"] {
+    font-size: 13px;
+}
+
+.signup_link a {
+    font-size: 9px;
+}   
+}

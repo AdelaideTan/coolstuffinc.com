@@ -1,0 +1,422 @@
+:root {
+    --white: #FFFFFF;
+    --lightgray: #F5F5F5;
+    --lightgray-1: #C9C9C9;
+    --lightgray-2: #CECECE;
+    --lightgray-3: #D3D3D3;
+    --gray-1: #696969;
+    --gray: #454545;
+    --blue: #1B215C;
+    --superlightblue: rgba(27, 33, 92, 49%);
+    --lightblue: rgba(27, 33, 92, 73%);
+    --abitlightblue: rgba(27, 33, 92, 88%);
+    --orange: #EB6649;
+    --yellow: #FABA00;
+    --black: black;
+}
+
+/*basic setup*/
+body {
+    background: var(--blue);
+}
+
+h3 {
+    color: var(--white);
+}
+
+h4 {
+    color: var(--white);
+}
+
+h5 {
+    color: var(--gray-1);
+}
+
+h6 {
+    color: var(--lightgray-1);
+}
+
+
+/* header start */
+#header-content {
+    background: var(--white);
+}
+
+.header {
+    background: var(--white);
+}
+
+
+/* add search bar */
+.search-bar input {
+    color: var(--gray);
+    background: var(--lightgray);
+    box-shadow: inset 2px 2px 3px #CECECE;
+}
+
+::placeholder {
+    color: var(--lightgray-3);
+}
+
+.search-bar button {
+    background: var(--white);
+}
+
+
+
+/*edit icon*/
+.slider {
+    background-color: var(--white);
+}
+
+input:checked+.slider {
+    background-color: var(--yellow);
+}
+
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+
+    /* header start */
+    .slider {
+        background-color: var(--white);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*homepage top*/
+.homepage_img_3 {
+    border: 1.5em solid var(--blue);
+}
+
+.slogan_1 {
+    color: var(--white);
+}
+
+.slogan_2 {
+    color: var(--white);
+}
+
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+
+    /*home page top*/
+    .homepage_img_3 {
+        border: 13px solid var(--blue);
+    }
+}
+
+
+
+
+
+
+/* create feature */
+/* Image zoom on hover + Overlay colour */
+/* three different images */
+.child_1:before {
+    background-image: linear-gradient(180deg, rgba(250, 186, 0, 0) 15%, rgba(250, 186, 0, 1));
+}
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+    .child_1:before {
+        background-image: linear-gradient(180deg, rgba(250, 186, 0, 0) 1%, rgba(250, 186, 0, 1));
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*create feature section */
+#feature_2 .amazing_game {
+    background-color: var(--white);
+}
+
+/* two different images */
+#feature_2 p {
+    color: var(--lightgray-1);
+}
+
+/* Image zoom on hover + Overlay colour */
+.child_2:before {
+    background: radial-gradient(rgba(250, 186, 0, 0) 45%, rgba(250, 186, 0, 1));
+}
+
+/* Media Queries */
+@media screen and (max-width:500px) {
+    #feature_2 p {
+        color: var(--lightgray-1);
+    }
+
+    /* Image zoom on hover + Overlay colour */
+    .child_2:before {
+        background: radial-gradient(rgba(250, 186, 0, 0) 45%, rgba(250, 186, 0, 1));
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Customers Review */
+#feature_2 p {
+    color: var(--lightgray-1);
+}
+
+/*star*/
+/* Image zoom on hover + Overlay colour */
+
+
+
+
+
+
+
+
+
+
+
+
+/*newsletter*/
+#newsletter h2 {
+    color: var(--white);
+}
+
+.newsletter_content input {
+    color: var(--gray);
+    background: var(--lightgray);
+    box-shadow: inset 2px 2px 3px #CECECE;
+}
+
+.newsletter_content button {
+    color: var(--white);
+    background: var(--yellow);
+}
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+/*footer_2*/
+#footer_2 a {
+    color: var(--white);
+}
+
+#footer_2 .follow a:hover {
+    color: var(--lightgray-2);
+}
+
+#back_to_top_button {
+    background: rgba(250, 186, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+/*cart*/
+.cart-button > button {
+    background: var(--white);
+
+}
+
+.cart-panel-background {
+    background-color: rgba(27, 33, 92, 38%);
+}
+
+.cart-panel {
+    background: var(--white);
+}
+
+.cart-header > button {
+    background-color: var(--white);
+}
+
+
+/*products tag*/
+.product {
+    color: var(--blue);
+}
+
+.image {
+    background-color: var(--lightgray);
+}
+
+
+/*product info*/
+
+/*product name*/
+
+/*price*/
+.price_before {
+    color: rgba(27, 33, 92, 49%);
+
+}
+
+.price_after {
+    color: var(--orange);
+
+}
+
+/*number of product*/
+#minus {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+#plus {
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+.product-info #input {
+    color: var(--gray);
+    background: var(--lightgray);
+    box-shadow: inset 2px 2px 3px #CECECE;
+
+    color: var(--black);
+}
+
+::placeholder {
+    color: var(--lightgray-3);
+}
+
+/*remove btn*/
+.remove-btn {
+    color: var(--lightgray-1);
+    background-color: var(--white);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 16%);
+}
+
+
+/*total-price*/
+.total-price {
+    color: var(--blue);
+}
+
+/*checkout-button*/
+.checkout-button > button {
+    background: var(--blue);
+    color: var(--white);
+}
+
+.checkout-button .checkout:hover {
+    background-color: var(--yellow);
+}
+
+@media screen and (max-width:500px) {
+    .total-price {
+        color: var(--blue);
+
+    }
+
+}
+
+
+
+
+
+
+
+/*login*/
+/*.container {
+    width: 100%;
+}*/
+.login-button > button {
+    background: var(--white);
+}
+
+.login-panel-background {
+    background-color: rgba(255, 255, 255, 60%);
+}
+
+.login-panel {
+    background-color: var(--blue);
+}
+
+/*login-content*/
+.login-content h1 {
+    color: var(--white);
+}
+.txt_field input {
+    color: var(--black);
+    background: var(--white);
+    box-shadow: inset 2px 2px 3px #CECECE;
+}
+
+::placeholder {
+    color: var(--lightgray-3);
+}
+
+.txt_field label {
+    color: var(--white);
+}
+
+.pass {
+    color: var(--yellow);
+}
+
+.remember {
+    color: var(--white);
+}
+
+.slider {
+    background-color: var(--white);
+}
+
+input:checked+.slider {
+    background-color: var(--yellow);
+}
+
+input[type="submit"] {
+    background: var(--yellow);
+    color: var(--white);
+}
+
+.signup_link a {
+    color: var(--white);
+
+}
+
+

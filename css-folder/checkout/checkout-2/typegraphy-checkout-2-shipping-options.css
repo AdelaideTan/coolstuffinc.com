@@ -1,0 +1,291 @@
+
+:root {
+    --primary-font: 'Avenir Next';
+}
+
+* {
+    text-decoration: none;
+}
+
+/* header start */
+.header-content p {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 31px;
+}
+
+/*process light*/
+.process-content p {
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 19px;
+}
+
+/*process text*/
+.process-text-line p {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width:500px) {
+    .header-content p {
+        font-family: var(--primary-font);
+        font-weight: bold;
+        font-size: 19px;
+    }
+    
+    /*process light*/
+    .process-content p {
+        font-size: 15px;
+    }
+
+    /*process text*/
+    .process-text-line p {
+        font-size: 9px;
+    }
+    
+    }
+
+
+
+
+
+/*checkout section finished*/
+/*address info & order smmary*/
+
+/*address info & shipping option & continue*/
+/*address info*/
+.address-content h1 {
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-weight: bold;
+}
+.address-content .subheader-1 p {
+    font-family: var(--primary-font);
+    font-size: 12px;
+}
+
+.address-content h2 {
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.finished_txt_field label {
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: 725;
+}
+
+.finished_txt_field p {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 725;
+}
+
+.finished_txt_field_shipping p {
+    font-family: var(--primary-font);
+    font-size: 13px;
+    font-weight: 725;
+}
+
+
+@media screen and (max-width:500px) {
+    /*checkout section*/
+    
+    /*address-content*/
+    .address-content h1 {
+        font-size: 18px;
+    }
+    
+    .address-content h2 {
+        font-size: 12px;
+    }
+    
+    .address-content .subheader-1 p {
+        font-size: 9px;
+    }
+
+    .finished_txt_field label {
+        font-size: 9px;
+        font-weight: 600;
+    }
+    
+    form .finished_txt_field p {
+        font-size: 9px;
+        font-weight: 600;
+    }
+    
+    form .finished_txt_field_shipping p {
+        font-size: 9px;
+        font-weight: 600;
+
+    }
+
+    }
+
+
+
+
+
+
+
+/*billing address*/
+.billing-address {
+    font-family: var(--primary-font);
+    font-size: 12px;
+}
+
+/*continue*/
+.continue input {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:500px) {
+    /*billing address*/
+    .address-content .billingsection h2 {
+        font-size: 12px;
+    }
+
+    .billing-address {
+        font-size: 9px;
+    }
+    
+    /*continue*/
+    .continue input {
+        font-size: 12px;
+    }
+
+    }
+
+
+
+
+
+
+
+
+/*shipping-options-panel*/
+/*.container {
+    width: 100%;
+}*/
+
+
+.shipping-options-content h1 {
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.shipping-options-content h2 {
+    font-family: var(--primary-font);
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+/*pick up options*/
+.checkbox-1 p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:500px) {
+/*shipping-options-panel*/
+.shipping-options-content h1 {
+    font-size: 18px;
+}
+
+.shipping-options-content h2 {
+    font-size: 12px;
+    
+}
+
+.checkbox-1 .billing-address{
+    font-size: 9px;
+}
+
+/*pick up options*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*whole-order-summary-panel*/
+.order-summary-content h1 {
+    font-family: var(--primary-font);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.order-summary-content h2 {
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.order-summary-panel h3 {
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.order-summary-panel h3 {
+    font-family: var(--primary-font);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.product-name{
+    font-family: var(--primary-font);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.product {
+    font-family: "Avenir Next";
+    font-weight: bold;
+}
+
+
+/*product name*/
+
+/*product-info*/
+.price-for-this-item {
+    font-family: var(--primary-font);
+    font-size: 16px;
+}
+
+.product-info .numberofitem p {
+    font-family: var(--primary-font);
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*shipping*/
+/*total*/
+
+.place-order input {
+    font-size: 17px;
+    font-weight: bold;
+}
