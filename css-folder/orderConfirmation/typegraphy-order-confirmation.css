@@ -4,8 +4,8 @@
     }
     
 :root {
-    --primary-font: 'Avenir Next';
-    --secondary-font: 'Helvetica Neue';
+    --primary-font: 'Avenir Next', 'Arial', sans-serif;
+    --secondary-font: 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 h2 {

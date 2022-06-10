@@ -4,7 +4,7 @@
     }
     
     :root {
-    --primary-font: 'Avenir Next';
+    --primary-font: 'Avenir Next', 'Arial', sans-serif;
 }
 
 * {
