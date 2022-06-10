@@ -239,6 +239,15 @@ img {
     justify-content: space-between;
 }
 
+
+
+
+
+
+
+
+
+
 /*count_icon*/
 #count_icon {
     display: flex;
@@ -306,6 +315,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+
 }
 
 .box .image img {
@@ -319,7 +329,7 @@ img {
     margin: 13px;
     flex: 1 1 220px;
     position: relative;
-    /*overflow: hidden;*/
+
 }
 
 .box .image {
