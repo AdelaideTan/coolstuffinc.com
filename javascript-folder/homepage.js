@@ -33,7 +33,7 @@ loginClosePanelButton.onclick = () => {
     loginPanelBackground.classList.remove("loginopen-1");
 }
 
-/*number of product (can not work with several item)*/
+/*number of product*/
 const minusButton = document.getElementById("minus");
 const plusButton = document.getElementById("plus");
 const inputField = document.getElementById("input");
